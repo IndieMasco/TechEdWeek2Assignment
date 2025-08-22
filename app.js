@@ -1,5 +1,7 @@
 console.log("Hello, Tech Ed Week 2!");
 
+// I need to store my images data in an array of objects
+
 const images = [
   {
     Image:
@@ -18,45 +20,39 @@ const images = [
     altText:
       "Jizo statues, often found in rows or groups at temples and cemeteries in Japan.",
   },
-  {
-    Image:
-      "https://images.unsplash.com/photo-1504109586057-7a2ae83d1338?q=80&w=1333&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    altText:
-      "floating torii gate of the Itsukushima Shrine, located on Miyajima Island",
-  },
-  {
-    Image:
-      "https://images.unsplash.com/photo-1480796927426-f609979314bd?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    altText:
-      "Traditional japanese restaurant with bicycles outside, crates and other things out front",
-  },
-  {
-    Image:
-      "https://images.unsplash.com/photo-1551241090-67de81d3541c?q=80&w=1209&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    altText:
-      "Japanese rock garden, also known as a Karesansui garden, with a traditional Japanese temple in the background",
-  },
-  {
-    Image:
-      "https://images.unsplash.com/photo-1568299662505-db3686267724?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    altText:
-      "Traditional japanese clothing in three different colours white, blue, red all covered in folowers",
-  },
-  {
-    Image:
-      "https://images.unsplash.com/photo-1602030029545-52959ef2927c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    altText:
-      "Taiyaki is made from a pancake-like batter cooked in a fish-shaped mold, typically filled with sweetened red bean paste",
-  },
 ];
 
-console.log(images); // check in the terminal if images show up
+// console.log(images); // check in the terminal if images show up
 
-function createThumbnails() {}
-const imageContainer = document.querySelector("thumbnail-container");
-for (let i = 0; i <= images.length; i++) {
-  const image = document.createElement("img");
-  thumbnails.src = image[i].src;
-  thumbnails.altText = image[i].alt;
-  thumbnails.className = "thumbnail";
+// I need to create my thumbnail images
+
+function createThumbnails() {
+  const thumbnailContainer = document.getElementById("thumbnail-container");
+  for (let i = 0; i < images.length; i++) {
+    const img = document.createElement("img");
+    img.src = images[i].Image;
+    img.alt = images[i].altText;
+    img.className = "thumbnail";
+    img.addEventListener("click", function () {
+      createLargeImagesHandler(images);
+      // console.log(img);
+    });
+    thumbnailContainer.appendChild(img);
+  }
+}
+
+createThumbnails();
+
+// I need to create my large images
+// this task is the event handler for the thumbnail events
+
+function createLargeImagesHandler() {
+  const largeImagecontainer = document.getElementById("large-image-container");
+  largeImagecontainer.innerHTML = "";
+  const img = document.createElement("img");
+  img.src = images[i].Image;
+  img.alt = images[i].altText;
+  img.classList.add("largeimage");
+
+  largeImagecontainer.appendChild(img);
 }

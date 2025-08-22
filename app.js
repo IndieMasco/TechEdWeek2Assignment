@@ -34,7 +34,7 @@ function createThumbnails() {
     img.alt = images[i].altText;
     img.className = "thumbnail";
     img.addEventListener("click", function () {
-      createLargeImagesHandler(images);
+      createLargeImagesHandler(i);
       // console.log(img);
     });
     thumbnailContainer.appendChild(img);
@@ -46,7 +46,7 @@ createThumbnails();
 // I need to create my large images
 // this task is the event handler for the thumbnail events
 
-function createLargeImagesHandler() {
+function createLargeImagesHandler(i) {
   const largeImagecontainer = document.getElementById("large-image-container");
   largeImagecontainer.innerHTML = "";
   const img = document.createElement("img");

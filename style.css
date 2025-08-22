@@ -3,3 +3,9 @@
 body {
   background-color: turquoise;
 }
+
+@media (min-width: 800px) {
+  header {
+    justify-self: center;
+  }
+}

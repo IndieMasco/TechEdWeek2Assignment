@@ -2,10 +2,33 @@
 
 body {
   background-color: turquoise;
+  scroll-behavior: smooth;
 }
 
-@media (min-width: 800px) {
-  header {
+.thumbnail {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 250px;
+  width: 250px;
+  padding: 2px;
+  text-align: center;
+  justify-content: center;
+}
+
+.mainimage {
+  height: 250px;
+  width: 250px;
+}
+
+@media (max-width: 800px) {
+  .thumbnail {
+    display: flex;
     justify-self: center;
+    z-index: 100;
+    width: auto;
+    height: 100px;
+    position: absolute;
+    margin-top: 80vh;
   }
 }

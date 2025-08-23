@@ -17,11 +17,12 @@
 
 # Reflection
 
-................
+For Week 2's assignment, we were asked to build an accessible image gallery using HTML, CSS, and JavaScript. We had to make sure that the gallery was functional, inclusive, and displayed correctly across various platforms while also meeting the set goals.
 
 # Errors or Bugs I Encountered
 
-................
+- At first, when I tried running my gallery bit by bit to see if it was working, I kept getting errors with the createLargeImagesHandler function. The error kept saying it was undefined. It took me a while to figure it out with Google and talking with Will, but the error turned out to be that I was missing an "i" within the code.
+-
 
 # External sources
 

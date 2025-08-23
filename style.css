@@ -5,9 +5,12 @@ body {
   scroll-behavior: smooth;
 }
 
-.thumbnail {
+#thumbnail-container {
   display: flex;
   flex-direction: row;
+}
+
+.thumbnail {
   flex-wrap: wrap;
   height: 250px;
   width: 250px;

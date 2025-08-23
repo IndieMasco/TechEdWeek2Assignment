@@ -51,6 +51,26 @@ img {
   }
 }
 
+/* This part is for the next and previous buttons */
+
+#next,
+#previous {
+  position: absolute;
+  padding: 10px 10px;
+  font-size: 1rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  cursor: pointer;
+}
+
+#next {
+  right: 10px;
+}
+
+#previous {
+  left: 10px;
+}
+
 /* This was something i was playing around with but didnt end up using */
 
 /* @media (orientation: portrait) {

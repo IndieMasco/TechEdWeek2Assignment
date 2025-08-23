@@ -52,7 +52,7 @@ function createThumbnails() {
     img.className = "thumbnail";
     img.addEventListener("click", function () {
       createLargeImagesHandler(i);
-      // console.log(img); // checking to see if it is pulling the right image info within inspect, console
+      // console.log(img); // checking to see if it is pulling the right image info
     });
     thumbnailContainer.appendChild(img);
   }
@@ -70,24 +70,24 @@ function createLargeImagesHandler(i) {
   img.src = images[i].Image;
   img.alt = images[i].altText;
   img.classList.add("largeimage");
+  // img.className = "largeimage"; //tried giving it a class name and still didnt work
 
   largeImagecontainer.appendChild(img);
 }
 
-// this section is so when the page load it will display the first image in the array as a large image
+// this section is for when the page loads it will display the first image in the array as a large image
 
 function largeImageOnVisit() {
   const largeImagecontainer = document.querySelector("#large-image-container");
   const img = document.createElement("img");
   img.src = images[0].Image;
   img.alt = images[0].altText;
-  img.className - "test";
   largeImagecontainer.appendChild(img);
 }
 
 largeImageOnVisit();
 
-// test
+// This event will detect when a phone is in portrait mode and prompt the user to turn their phone to landscape.
 
 window.addEventListener("orientationchange", function () {
   if (window.screen.orientation.type.startsWith("portrait")) {

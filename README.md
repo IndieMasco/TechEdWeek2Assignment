@@ -1,6 +1,6 @@
 # Reflection
 
-For Week 2's assignment, we were asked to build an accessible image gallery using HTML, CSS, and JavaScript. We had to make sure that the gallery was functional, inclusive, and displayed correctly across various platforms while also meeting the set goals.
+For Week 2's assignment, we were asked to build an accessible image gallery using HTML, CSS, and JavaScript. We had to make sure that the gallery was functional, inclusive, and displayed correctly across various platforms while also meeting the set goals. Honestly, I felt a little overwhelmed with this week's task at first because of the heavy focus on JavaScript. I had to go back and review Figma and my classwork a few times to refresh my memory on how certain elements work. Once everything started to click, it all fell into place, and I realized my initial feelings of being overwhelmed were for nothing. Despite the struggle, I genuinely enjoyed this assignment and am happy that I managed to complete all the main goals.
 
 # Requirements I think I've achieved
 
@@ -21,11 +21,16 @@ For Week 2's assignment, we were asked to build an accessible image gallery usin
 
 # Extra things i have added
 
-- when viewing on a mobile ive added a prompt to tell people "Please rotate your device to landscape mode for the best viewing experience.".
+- when viewing on a mobile device ive added a prompt to tell people "Please rotate your device to landscape mode for the best viewing experience.".
 
 # Errors or Bugs I Encountered
 
 - At first, when I tried running my JS code bit by bit to see if it was working, I kept getting errors with the createLargeImagesHandler function. The error kept saying it was undefined. It took me a while to figure it out with Google and talking with Will, but the error turned out to be that I was missing an "i" within the code.
+- dont no if it is a error or a bug but the only way i can target the image size is but targeting img within CSS.
+
+# What went really well and what could have gone better?
+
+- For one of my main goals, I had to implement at least one meaningful media query so that there is a noticeable change between mobile and desktop views. I managed to do that: on the desktop view, the thumbnail bar is at the top, and on mobile in portrait mode, the thumbnail is at the bottom. I also wanted to change it for when you put it in landscape, but when I started doing that, it affected the desktop view. Would there be a way to have all three views be different and not affect each other?
 
 # External sources
 

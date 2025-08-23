@@ -26,7 +26,7 @@ For Week 2's assignment, we were asked to build an accessible image gallery usin
 # Errors or Bugs I Encountered
 
 - At first, when I tried running my JS code bit by bit to see if it was working, I kept getting errors with the createLargeImagesHandler function. The error kept saying it was undefined. It took me a while to figure it out with Google and talking with Will, but the error turned out to be that I was missing an "i" within the code.
-- dont no if it is a error or a bug but the only way i can target the image size is but targeting img within CSS.
+- I don't know if it's an error or a bug, but the only way I can target the image size for the large image is by targeting it in CSS with img. I've tried other ways, but none of them worked.
 
 # What went really well and what could have gone better?
 

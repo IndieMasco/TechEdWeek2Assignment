@@ -52,7 +52,7 @@ function createThumbnails() {
     img.className = "thumbnail";
     img.addEventListener("click", function () {
       createLargeImagesHandler(i);
-      // console.log(img);
+      // console.log(img); // checking to see if it is pulling the right image info within inspect, console
     });
     thumbnailContainer.appendChild(img);
   }
@@ -73,3 +73,14 @@ function createLargeImagesHandler(i) {
 
   largeImagecontainer.appendChild(img);
 }
+
+function largeImageOnVisit() {
+  const largeImagecontainer = document.querySelector("#large-image-container");
+  const img = document.createElement("img");
+  img.src = images[0].Image;
+  img.alt = images[0].altText;
+  img.className - "test";
+  largeImagecontainer.appendChild(img);
+}
+
+largeImageOnVisit();

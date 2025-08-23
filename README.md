@@ -28,7 +28,7 @@ For Week 2's assignment, we were asked to build an accessible image gallery usin
 
 Info
 
-- my own repo - https://github.com/IndieMasco/TechEdSoftwareDeveloper021
+- My own repo - https://github.com/IndieMasco/TechEdSoftwareDeveloper021
 - Tech Ed repo - https://github.com/Tech-Educators/software-dev-021
 - FigJam - https://www.figma.com/board/JjN2Zgtoynrau06MjWJs6q/SD021?node-id=0-1&p=f&t=V1WCGcrmVKnoxJDr-0
 - MDN - https://developer.mozilla.org/en-US/

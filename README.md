@@ -19,10 +19,6 @@ For Week 2's assignment, we were asked to build an accessible image gallery usin
 
 ................
 
-# Extra things i have added
-
-- when viewing on a mobile device ive added a prompt to tell people "Please rotate your device to landscape mode for the best viewing experience.".
-
 # Errors or Bugs I Encountered
 
 - At first, when I tried running my JS code bit by bit to see if it was working, I kept getting errors with the createLargeImagesHandler function. The error kept saying it was undefined. It took me a while to figure it out with Google and talking with Will, but the error turned out to be that I was missing an "i" within the code.

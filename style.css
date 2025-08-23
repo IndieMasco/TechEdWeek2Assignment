@@ -20,7 +20,6 @@ body {
 .thumbnail {
   height: 150px;
   width: auto;
-  border: 3px solid black;
 }
 
 /* This part is for the large image */
@@ -34,6 +33,7 @@ body {
 img {
   height: 100vh;
   width: 100vw;
+  object-fit: contain;
 }
 
 /* This part is for mobile styling */
@@ -52,9 +52,10 @@ img {
 }
 
 /* This part is for the next and previous buttons */
+/* Blocked out till i can figure out the JS */
 
-#next,
-#previous {
+/* #next,
+#prev {
   position: absolute;
   padding: 10px 10px;
   font-size: 1rem;
@@ -67,11 +68,11 @@ img {
   right: 10px;
 }
 
-#previous {
+#prev {
   left: 10px;
-}
+} */
 
-/* This was something i was playing around with but didnt end up using */
+/* This was something i was playing around with but didnt end up working the way i wanted it to */
 
 /* @media (orientation: portrait) {
   #thumbnail-container {

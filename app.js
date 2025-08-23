@@ -49,6 +49,7 @@ function createThumbnails() {
     const img = document.createElement("img");
     img.src = images[i].Image;
     img.alt = images[i].altText;
+    img.tabIndex = i;
     img.className = "thumbnail";
     img.addEventListener("click", function () {
       createLargeImagesHandler(i);
@@ -88,12 +89,13 @@ function largeImageOnVisit() {
 largeImageOnVisit();
 
 // This event will detect when a phone is in portrait mode and prompt the user to turn their phone to landscape.
+// it does work but i aint going to add it until i can get at least one stretch goal done
 
-window.addEventListener("orientationchange", function () {
-  if (window.screen.orientation.type.startsWith("portrait")) {
-    alert(
-      "Please rotate your device to landscape mode for the best viewing experience."
-    );
-  } else {
-  }
-});
+// window.addEventListener("orientationchange", function () {
+//   if (window.screen.orientation.type.startsWith("portrait")) {
+//     alert(
+//       "Please rotate your device to landscape mode for the best viewing experience."
+//     );
+//   } else {
+//   }
+// });

@@ -2,7 +2,7 @@
 
 For Week 2's assignment, we were asked to build an accessible image gallery using HTML, CSS, and JavaScript. We had to make sure that the gallery was functional, inclusive, and displayed correctly across various platforms while also meeting the set goals. Honestly, I felt a little overwhelmed with this week's task at first because of the heavy focus on JavaScript. I had to go back and review Figma and my classwork a few times to refresh my memory on how certain elements work. Once everything started to click, it all fell into place, and I realized my initial feelings of being overwhelmed were for nothing. Despite the struggle, I genuinely enjoyed this assignment and am happy that I managed to complete all the main goals.
 
-# Requirements I think I've achieved
+# Requirements
 
 - 🎯 Implement responsive design methods to ensure the website works well on both small mobile screens and larger desktop screens (e.g., above 800px). ✅
 - 🎯 Implement at least one meaningful media query so that there is a noticeable change between mobile and desktop view (an example is to change where the ‘thumbnail bar’ is positioned). ✅

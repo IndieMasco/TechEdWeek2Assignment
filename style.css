@@ -25,10 +25,9 @@ body {
   .thumbnail {
     display: flex;
     justify-self: center;
-    z-index: 100;
     width: auto;
     height: 100px;
     position: absolute;
-    margin-top: 80vh;
+    margin-top: 88vh;
   }
 }

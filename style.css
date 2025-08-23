@@ -1,9 +1,11 @@
 @import url("https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css");
 
 body {
-  background-color: turquoise;
+  background-color: rgb(97, 102, 102);
   scroll-behavior: smooth;
 }
+
+/* This part is for the thumbnail */
 
 #thumbnail-container {
   display: flex;
@@ -21,6 +23,8 @@ body {
   border: 3px solid black;
 }
 
+/* This part is for the large image */
+
 #large-image-container {
   display: flex;
   justify-content: center;
@@ -30,23 +34,51 @@ body {
 }
 
 .mainimage {
-  height: 80vh;
   width: auto;
   object-fit: cover;
 }
 
-img {
-  height: 100vh;
-  width: 100vw;
-}
+/* This part is for mobile styling */
 
 @media (max-width: 800px) {
   #thumbnail-container {
+    display: flex;
+    flex-direction: row;
     position: fixed;
     bottom: 0;
+    left: 0;
     width: 100%;
     display: flex;
     align-items: center;
-    border: 2px solid black;
   }
 }
+
+/* This was something i was playing around with but didnt end up using */
+
+/* @media (orientation: portrait) {
+  #thumbnail-container {
+    max-width: 800px;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media (orientation: landscape) {
+  #thumbnail-container {
+    max-width: 800px;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 25%;
+    display: flex;
+    align-items: center;
+  }
+} */

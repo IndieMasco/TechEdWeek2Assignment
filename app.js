@@ -1,4 +1,4 @@
-console.log("Hello, Tech Ed Week 2!");
+// console.log("Hello, Tech Ed Week 2!");
 
 // I need to store my images data in an array of objects
 
@@ -74,6 +74,8 @@ function createLargeImagesHandler(i) {
   largeImagecontainer.appendChild(img);
 }
 
+// this section is so when the page load it will display the first image in the array as a large image
+
 function largeImageOnVisit() {
   const largeImagecontainer = document.querySelector("#large-image-container");
   const img = document.createElement("img");
@@ -84,3 +86,14 @@ function largeImageOnVisit() {
 }
 
 largeImageOnVisit();
+
+// test
+
+window.addEventListener("orientationchange", function () {
+  if (window.screen.orientation.type.startsWith("portrait")) {
+    alert(
+      "Please rotate your device to landscape mode for the best viewing experience."
+    );
+  } else {
+  }
+});

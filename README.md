@@ -29,13 +29,18 @@ For Week 2's assignment, we were asked to build an accessible image gallery usin
 
 # External sources
 
-Info
+### Info
 
 - My own repo - https://github.com/IndieMasco/TechEdSoftwareDeveloper021
 - Tech Ed repo - https://github.com/Tech-Educators/software-dev-021
 - FigJam - https://www.figma.com/board/JjN2Zgtoynrau06MjWJs6q/SD021?node-id=0-1&p=f&t=V1WCGcrmVKnoxJDr-0
 - MDN - https://developer.mozilla.org/en-US/
 - W3School - https://www.w3schools.com/
+
+### Tutorials
+
+- Next and orevious button - https://www.youtube.com/watch?v=JuZABF3bEdg&t=115s, https://www.youtube.com/watch?v=749ta0nvj8s&t=76s, https://www.youtube.com/watch?v=-yXVaY7qEkE&t=279s, https://stackoverflow.com/questions/13637223/how-do-you-make-a-div-tabbable
+- navigation arrow keys - https://www.youtube.com/watch?v=Cali4HZF7TY, https://www.w3schools.com/howto/howto_js_slideshow.asp, https://www.w3schools.com/howto/howto_js_slideshow_gallery.asp,
 
 # Feedback Request
 

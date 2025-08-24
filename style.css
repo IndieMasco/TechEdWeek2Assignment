@@ -5,7 +5,7 @@ body {
   scroll-behavior: smooth;
 }
 
-/* This part is for the thumbnail */
+/* Thumbnail */
 
 #thumbnail-container {
   display: flex;
@@ -22,7 +22,7 @@ body {
   width: auto;
 }
 
-/* This part is for the large image */
+/* Large image */
 
 #large-image-container {
   display: flex;
@@ -36,7 +36,7 @@ img {
   object-fit: contain;
 }
 
-/* This part is for mobile styling */
+/* Mobile styling */
 
 @media (max-width: 800px) {
   #thumbnail-container {
@@ -52,12 +52,12 @@ img {
 }
 
 /* This part is for the next and previous buttons */
-/* Blocked out till i can figure out the JS */
+/* Need to do the JavaScript */
 
-/* #next,
+#next,
 #prev {
   position: absolute;
-  padding: 10px 10px;
+  padding: 20px 20px;
   font-size: 1rem;
   background-color: rgba(0, 0, 0, 0.5);
   color: white;
@@ -66,11 +66,13 @@ img {
 
 #next {
   right: 10px;
+  top: 100px;
 }
 
 #prev {
   left: 10px;
-} */
+  top: 100px;
+}
 
 /* This was something i was playing around with but didnt end up working the way i wanted it to */
 

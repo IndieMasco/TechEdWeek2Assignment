@@ -11,13 +11,12 @@ For Week 2's assignment, we were asked to build an accessible image gallery usin
 
 # Stretch Requirements
 
-- 🏹 Use ‘srcset’ to specify which image will be used based on the size of the screen for optimal viewing experience.
+- 🏹 Use ‘srcset’ to specify which image will be used based on the size of the screen for optimal viewing experience. ✅ I think this is working. I don't really know how I would check it properly, but when I copy the image address on the thumbnail and paste it into a Google search, it shows the edited URL.
+
+# requirements that I wasnt able to achieve (**YET**)
+
 - 🏹 Add ARIA elements to improve accessibility, such as aria-label, aria-live, and other relevant attributes.
 - 🏹 Implement key bindings for buttons to enhance navigation, such as using arrow keys to switch between images.
-
-# requirements that I wasnt able to achieve
-
-................
 
 # Errors or Bugs I Encountered
 

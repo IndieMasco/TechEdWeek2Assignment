@@ -14,7 +14,7 @@ For Week 2's assignment, we were asked to build an accessible image gallery usin
 - 🏹 Use ‘srcset’ to specify which image will be used based on the size of the screen for optimal viewing experience. ✅ I think this is working. I don't really know how I would check it properly, but when I copy the image address on the thumbnail and paste it into a Google search, it shows the edited URL.
 - 🏹 Implement key bindings for buttons to enhance navigation, such as using arrow keys to switch between images. ✅ You can navigate the thumbnails with the arrow keys, and it will switch the large image as you go through them.
 
-# requirements that I wasnt able to achieve
+# requirements that I wasn't able to achieve
 
 - 🏹 Add ARIA elements to improve accessibility, such as aria-label, aria-live, and other relevant attributes. ❌ I understood what this task was asking of me, but it was the JavaScript side that I couldn't get my head around. I think it's because I was trying to implement it into buttons, and that meant I also needed to make functional buttons.
 

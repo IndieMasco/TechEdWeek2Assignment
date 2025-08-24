@@ -101,6 +101,8 @@ function largeImageOnVisit() {
 largeImageOnVisit();
 
 // Next and previous buttons
+// This was a pain to find out how to do and get working
+// so many articles have been ready just for this little bit of code
 
 let currentIndex = 0;
 

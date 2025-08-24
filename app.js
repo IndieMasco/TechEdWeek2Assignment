@@ -103,10 +103,23 @@ largeImageOnVisit();
 
 // Next and previous buttons
 
+let currentIndex = 0;
+
+document.addEventListener("keydown", function (event) {
+  if (event.key === "ArrowRight") {
+    currentIndex = (currentIndex + 1) % images.length;
+    createLargeImagesHandler(currentIndex);
+  } else if (event.key === "ArrowLeft") {
+    currentIndex = (currentIndex - 1 + images.length) % images.length;
+    createLargeImagesHandler(currentIndex);
+  }
+});
+
 //================================================================
 
 // This event will detect when a phone is in portrait mode and prompt the user to turn their phone to landscape.
-// it does work but i aint going to add it until i can get at least one stretch goal done
+// I wanted to used this if i could have made all 3 view points different (desk top, Mobile (landscape & portrait))
+// it does work
 
 // window.addEventListener("orientationchange", function () {
 //   if (window.screen.orientation.type.startsWith("portrait")) {

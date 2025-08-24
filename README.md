@@ -1,6 +1,6 @@
 # Reflection
 
-For Week 2's assignment, we were asked to build an accessible image gallery using HTML, CSS, and JavaScript. We had to make sure that the gallery was functional, inclusive, and displayed correctly across various platforms while also meeting the set goals. Honestly, I felt a little overwhelmed with this week's task at first because of the heavy focus on JavaScript. I had to go back and review Figma and my classwork a few times to refresh my memory on how certain elements work. Once everything started to click, it all fell into place, and I realized my initial feelings of being overwhelmed were for nothing. Despite the struggle, I genuinely enjoyed this assignment and am happy that I managed to complete all the main goals.
+For Week 2's assignment, we were asked to build an accessible image gallery using HTML, CSS, and JavaScript. We had to make sure that the gallery was functional, inclusive, and displayed correctly across various platforms while also meeting the set goals. Honestly, I felt a little overwhelmed with this week's task at first because of the heavy focus on JavaScript. I had to go back and review Figma and my classwork a few times to refresh my memory on how certain elements work. Once everything started to click, it all fell into place, and I realized my initial feelings of being overwhelmed were for nothing. Despite the struggle, I genuinely enjoyed this assignment and am happy that I managed to complete all the main goals. If I'm honest, I did struggle with the JavaScript in this assignment, mainly on the stretch goals, but I can now see clearly where I need to improve. It really helped reaching out to my peers and talking to them about the assignment; it made me realize that I wasn't doing as bad as I thought and that I kind of know what I'm doing.
 
 # Requirements
 
@@ -12,11 +12,11 @@ For Week 2's assignment, we were asked to build an accessible image gallery usin
 # Stretch Requirements
 
 - 🏹 Use ‘srcset’ to specify which image will be used based on the size of the screen for optimal viewing experience. ✅ I think this is working. I don't really know how I would check it properly, but when I copy the image address on the thumbnail and paste it into a Google search, it shows the edited URL.
+- - 🏹 Implement key bindings for buttons to enhance navigation, such as using arrow keys to switch between images. ✅
 
-# requirements that I wasnt able to achieve (**YET**)
+# requirements that I wasnt able to achieve
 
-- 🏹 Add ARIA elements to improve accessibility, such as aria-label, aria-live, and other relevant attributes.
-- 🏹 Implement key bindings for buttons to enhance navigation, such as using arrow keys to switch between images.
+- 🏹 Add ARIA elements to improve accessibility, such as aria-label, aria-live, and other relevant attributes. ❌ I understood what this task was asking of me, but it was the JavaScript side that I couldn't get my head around. I think it's because I was trying to implement it into buttons, and that meant I also needed to make functional buttons.
 
 # Errors or Bugs I Encountered
 

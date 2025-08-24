@@ -103,7 +103,7 @@ largeImageOnVisit();
 
 // Navigation arrow keys
 // This was a pain to find out how to do and get working
-// So many articles have been ready just for this little bit of code
+// So many articles have been read just for this little bit of code
 
 let currentIndex = 0;
 

@@ -39,7 +39,7 @@ For Week 2's assignment, we were asked to build an accessible image gallery usin
 
 ### Tutorials
 
-- Next and orevious button - https://www.youtube.com/watch?v=JuZABF3bEdg&t=115s, https://www.youtube.com/watch?v=749ta0nvj8s&t=76s, https://www.youtube.com/watch?v=-yXVaY7qEkE&t=279s, https://stackoverflow.com/questions/13637223/how-do-you-make-a-div-tabbable
+- Next and previous button - https://www.youtube.com/watch?v=JuZABF3bEdg&t=115s, https://www.youtube.com/watch?v=749ta0nvj8s&t=76s, https://www.youtube.com/watch?v=-yXVaY7qEkE&t=279s, https://stackoverflow.com/questions/13637223/how-do-you-make-a-div-tabbable
 - navigation arrow keys - https://www.youtube.com/watch?v=Cali4HZF7TY, https://www.w3schools.com/howto/howto_js_slideshow.asp, https://www.w3schools.com/howto/howto_js_slideshow_gallery.asp,
 
 # Feedback Request

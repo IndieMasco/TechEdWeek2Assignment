@@ -62,7 +62,6 @@ function createThumbnails() {
     img.src = images[i].Image;
     img.alt = images[i].altText;
     img.srcset = images[i].srcset;
-    img.tabIndex = i;
     img.className = "thumbnail";
     img.addEventListener("click", function () {
       createLargeImagesHandler(i);

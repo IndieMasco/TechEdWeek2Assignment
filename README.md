@@ -12,7 +12,7 @@ For Week 2's assignment, we were asked to build an accessible image gallery usin
 # Stretch Requirements
 
 - 🏹 Use ‘srcset’ to specify which image will be used based on the size of the screen for optimal viewing experience. ✅ I think this is working. I don't really know how I would check it properly, but when I copy the image address on the thumbnail and paste it into a Google search, it shows the edited URL.
-- - 🏹 Implement key bindings for buttons to enhance navigation, such as using arrow keys to switch between images. ✅
+- 🏹 Implement key bindings for buttons to enhance navigation, such as using arrow keys to switch between images. ✅ You can navigate the thumbnails with the arrow keys, and it will switch the large image as you go through them.
 
 # requirements that I wasnt able to achieve
 

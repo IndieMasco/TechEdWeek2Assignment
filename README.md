@@ -16,7 +16,7 @@ For Week 2's assignment, we were asked to build an accessible image gallery usin
 
 # requirements that I wasn't able to achieve
 
-- 🏹 Add ARIA elements to improve accessibility, such as aria-label, aria-live, and other relevant attributes. ❌ I understood what this task was asking of me, but it was the JavaScript side that I couldn't get my head around. I think it's because I was trying to implement it into buttons, and that meant I also needed to make functional buttons.
+- 🏹 Add ARIA elements to improve accessibility, such as aria-label, aria-live, and other relevant attributes. ❌ I understood the requirements of this task and attempted to complete it, but I struggled with the JavaScript portion.
 
 # Errors or Bugs I Encountered
 

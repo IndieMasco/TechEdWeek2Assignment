@@ -117,6 +117,21 @@ document.addEventListener("keydown", function (event) {
   }
 });
 
+// Next and previous buttons
+
+const nextButton = document.getElementById("next");
+const prevButton = document.getElementById("prev");
+
+nextButton.addEventListener("click", () => {
+  currentIndex = (currentIndex + 1) % images.length;
+  createLargeImagesHandler(currentIndex);
+});
+
+prevButton.addEventListener("click", () => {
+  currentIndex = (currentIndex - 1 + images.length) % images.length;
+  createLargeImagesHandler(currentIndex);
+});
+
 //================================================================
 
 // This event will detect when a phone is in portrait mode and prompt the user to turn their phone to landscape.
@@ -131,5 +146,3 @@ document.addEventListener("keydown", function (event) {
 //   } else {
 //   }
 // });
-
-//================================================================

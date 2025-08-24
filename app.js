@@ -1,6 +1,7 @@
 // console.log("Hello, Tech Ed Week 2!");
 
-// I need to store my images data in an array of objects
+// Images
+// Srcset
 
 const images = [
   {
@@ -100,9 +101,9 @@ function largeImageOnVisit() {
 
 largeImageOnVisit();
 
-// Next and previous buttons
+// Navigation arrow keys
 // This was a pain to find out how to do and get working
-// so many articles have been ready just for this little bit of code
+// So many articles have been ready just for this little bit of code
 
 let currentIndex = 0;
 
@@ -120,7 +121,7 @@ document.addEventListener("keydown", function (event) {
 
 // This event will detect when a phone is in portrait mode and prompt the user to turn their phone to landscape.
 // I wanted to used this if i could have made all 3 view points different (desk top, Mobile (landscape & portrait))
-// it does work
+// It does work
 
 // window.addEventListener("orientationchange", function () {
 //   if (window.screen.orientation.type.startsWith("portrait")) {

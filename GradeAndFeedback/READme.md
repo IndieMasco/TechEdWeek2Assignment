@@ -48,11 +48,11 @@ Some things to consider:
 
 - ARIA updates -> When the image changes, we should update:
 
-#large-image-container text (caption) so aria-live="polite" announces it.
+        - #large-image-container text (caption) so aria-live="polite" announces it.
 
-Thumbnails’ aria-current (set on active, remove from others).
+        - Thumbnails’ aria-current (set on active, remove from others).
 
-Optionally, you could move focus to the large image with img.focus() (make it focusable via using  tabindex="-1").
+        - Optionally, you could move focus to the large image with img.focus() (make it focusable via using  tabindex="-1").
 
 - Performance niceties -> Try adding loading="lazy" to thumbnails and decoding="async" to all created images. How does this affect performance?
 
@@ -74,11 +74,11 @@ From your reflection:
 
 - Go mobile-first, then layer some mutually exclusive queries:
 
-Base = mobile portrait
+        - Base = mobile portrait
 
-@media (orientation: landscape) and (max-width: 900px) { … } (mobile landscape)
+        - @media (orientation: landscape) and (max-width: 900px) { … } (mobile landscape)
 
-@media (min-width: 900px) { … } (desktop)
+        - @media (min-width: 900px) { … } (desktop)
 
 - This avoids desktop rules hitting phones in landscape. If a rule must target only one mode, include both orientation and a specific width bounding.
 

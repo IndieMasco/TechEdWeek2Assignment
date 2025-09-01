@@ -9,7 +9,7 @@ Let’s check out some of your implementations!
 Your HTML layout and choice of elements is generally very good. Nicely done!
 You’re following some best practices and definitely showing confidence in creating the scaffolding for your CSS styling and Javascript interactivity! There a few areas still worth looking at to tighten up our best practices though!
 
-- Landmarks -> Wrap the main UI in <main> and stick to <nav> for page browsing and image browsing controls.
+- Landmarks -> Wrap the main UI in `<main>` and stick to `<nav>` for page browsing and image browsing controls.
 
 - Live updates -> I would add aria-live="polite" to #large-image-container so screen readers announce image changes.
 
@@ -44,7 +44,7 @@ Some things to consider:
 
 - Invalid srcset -> Your strings lack width descriptors and sizes. Correct syntax is:
 
- img.srcset = "…w=480 480w, …w=800 800w"; img.sizes = "100vw";
+    -  img.srcset = "…w=480 480w, …w=800 800w"; img.sizes = "100vw";
 
 - ARIA updates -> When the image changes, we should update:
 
